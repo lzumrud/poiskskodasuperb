@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 # --- CONFIG ---
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-CHECK_INTERVAL_MINUTES = 30
+CHECK_INTERVAL_MINUTES = 180
 KEYWORDS = ["superb"]  # case-insensitive
 
 SEEN_FILE = "seen_ids.json"
